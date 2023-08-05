@@ -12,12 +12,8 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 20px 0;
+  padding: 10px;
   text-align: center;
-}
-
-header h1 {
-  font-size: 32px;
 }
 
 nav ul {
@@ -35,19 +31,25 @@ nav ul li a {
 }
 
 /* Main content styles */
-.login {
-  width: 300px;
-  margin: 0 auto;
+.Sobre, .Produtos {
   padding: 20px;
-  border: 1px solid #ccc;
 }
 
-.login button {
-  background-color: #0073e6;
+/* Login button styles */
+.login-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #1a73e8; /* Azul escuro */
   color: white;
   border: none;
-  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0d47a1; /* Azul ainda mais escuro ao passar o mouse */
 }
 
 /* Footer styles */
@@ -61,13 +63,10 @@ footer {
   width: 100%;
 }
 
-/* Additional Styles for mShops */
+/* Logo styles */
 .logo {
+  font-size: 36px;
+  font-weight: bold;
   text-align: center;
-  padding: 20px;
-}
-
-.logo h1 {
-  font-size: 48px;
-  color: #0073e6;
+  margin-top: 20px;
 }
